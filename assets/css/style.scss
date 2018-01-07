@@ -2,3 +2,13 @@
 ---
 
 @import "{{ site.theme }}";
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body { 
+  font-family: 'Ubuntu', sans-serif;
+  color: #010101; 
+}
+
+header h1 {
+  font-family: 'Ubuntu', sans-serif;
+}
