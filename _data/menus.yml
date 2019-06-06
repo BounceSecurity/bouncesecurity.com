@@ -1,2 +1,11 @@
-- title: Home
+- title: Intro
   url  : /
+- title: How we do it
+  url  : '#approach'
+- title: What we can do for you
+  url  : '#services'
+- title: Who are we
+  url  : '#about'
+- title: Get in touch
+  url  : '#contact'
+  link : true
