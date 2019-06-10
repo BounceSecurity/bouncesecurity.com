@@ -3,12 +3,19 @@
 
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
-$fontsize:		26px;
+$fontsize:		24px;
+$smallfontsize:	20px;
+$headersize:	105px;
+
 $fontcolor:		#010101;
-$bouncecolor:		#f79421;
+$bouncecolor:	#f79421;
 $evencolor:		#f7d5b5;
-$oddcolor:		lightblue;
-$headersize:		105px;
+$oddcolor:		white;
+
+$width-mobile:	767px;
+$width-narrow:	1023px;
+$width-wide:	1299px;
+
 
 html {
 	text-size-adjust: 100%;
@@ -19,9 +26,13 @@ html {
 body { 
 	color: $fontcolor;
 	background: white;
-	font: $fontsize Calibri, Candara, Verdana, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-	line-height: 1.625;
+	font: $fontsize / 1.625 Calibri, Candara, Verdana, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	margin: 0;
+
+	@media (max-width: $width-mobile) {
+		font-size: $smallfontsize;
+		line-height: 1.43;
+	}
 }
 
 footer
@@ -29,9 +40,23 @@ footer
 	display: block;
 	font-family: 'Ubuntu', sans-serif;
 	border-top: 1px solid #eee;
-	font-size: 18px;
+	font-size: $smallfontsize;
 	background-color: $evencolor;
 	text-align: center;
+	padding: 12px 18px;
+
+	@media (max-width: $width-narrow) { 
+		padding: 12px 9px;
+	}
+	
+	a {
+		color: $fontcolor;
+		border: none;
+		
+		&:hover {
+			color: $bouncecolor;
+		}
+	}	
 }
 
 header {
@@ -46,6 +71,10 @@ header {
 	background: #fff;
 	border-bottom: 1px solid #eee;
 
+	@media (max-width: $width-narrow) { 
+		padding: 0 15px ;
+	}
+
 	.logo {
 		display: inline-block;
 
@@ -55,9 +84,35 @@ header {
 	}
 }
 
+h1 {
+	font-size: 36px; 
+	font-weight: 900;
+
+	@media (max-width: $width-mobile) {
+		font-size: 28px;
+		line-height: 30px;
+	}
+}
+
+/* ------------------------------- */ 
 nav {
-	display: inline-block;
 	vertical-align: top;
+	display: inline-block;
+	padding: 0 24px;
+
+	@media (max-width: $width-wide) {
+		padding: 0;
+	}
+	@media (max-width: $width-mobile) { 
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 20;
+		padding-top: 98px;
+	}
 
 	ul {
 		margin: 0;
@@ -65,35 +120,72 @@ nav {
 		list-style: none;
 		font-size: 20px;
 		line-height: 24px;
-	}
-	
-	li {
-		display: inline-block;
-		vertical-align: top;
-		padding: 28px 12px 0;
-		border-top: 4px solid transparent;
-		
-		&:hover {
-			border-top-color: $bouncecolor;
+
+		@media (max-width: $width-mobile) { 
+			overflow: auto;
+			border-top: 1px solid #eee;
+			background: #fff;
+		}
+
+		li {
+			display: inline-block;
+			vertical-align: top;
+			padding: 28px 5px 0;
+			border-top: 4px solid transparent;
+			
+			@media (max-width: $width-wide) {
+				padding: 28px 12px 0;
+			}
+			@media (max-width: $width-mobile) { 
+				display: block;
+				padding: 0;
+				margin: 0 !important;
+				border: none;
+			}			
+
+			&:hover { 
+				border-top-color: $bouncecolor;
+				
+				a {
+					color: $bouncecolor;
+					text-decoration-line: underline;
+
+					@media (max-width: $width-mobile) { 
+						background: #f79421;
+						color: #fff;
+					}				
+				}
+			}
+		}
+
+		li + li {
+			margin-left: 33px;
+
+			@media (max-width: $width-narrow) { 
+				margin-left: 10px;
+			}
+
+			@media (max-width: $width-mobile) { 
+				border-top: 1px solid #eee !important;
+			}
 		}
 
 		a {
 			color: $fontcolor;
 			border: none;
-
-			&:hover {
-				color: $bouncecolor;
+			text-decoration-line: none;
+			
+			@media (max-width: $width-mobile) { 
+				display: block;
+				position: relative;
+				padding: 18px 45px 18px 33px;
 			}
 
-			&.activelink {
+			&.link {
 				position: relative;
 				padding-right: 14px;
 				font-weight: 600;
 				color: #ff5f5f;
-
-				&:hover {
-					color: $bouncecolor;
-				}
 
 				&:after {
 					-webkit-transition: right .2s linear 0s;
@@ -101,7 +193,7 @@ nav {
 					
 					position: absolute;
 					top: 50%;
-					right: -6px;;
+					right: -6px;
 					z-index: 2;
 					margin-top: -12px;
 					content: "►";
@@ -110,53 +202,33 @@ nav {
 				&:hover:after {
 					right: -12px !important;
 				}
+				
+				@media (max-width: $width-mobile) { 
+					color: #3c5063;
+
+					&:hover:after {
+						position: absolute;
+						right: 32px !important;
+						margin-top: -10px;
+						font-size: 16px;
+						font-weight: bolder;
+						content: ">>";
+					}
+				}				
 			}
 		}
 	}
-
-	li + li {
-		margin-left: 33px;
-	}
 }
 
-/*
-@media (max-width: 1023px) {
-	header {
-		padding: 0 15px 20px;
-	}
-}
-
-@media (max-width: 767px) {
-	header {
-		min-height: 69px;
-		padding: 0;
-		position: relative;
-		z-index: 21;
-		padding: 13px 30px 10px;
-		text-align: center;
-	}
-
-	header:after {
-		display: block;
-		clear: both;
-		content: "";
-	}
-}
-*/
-
-#content-wrapper {
-    padding: $headersize 0 90px;
-    min-height: 260px;
-}
-
+/* ------------------------------- */ 
 section {
 	display: block;	
     min-height: 130px; 
 	text-align: center;	
 
-	.section-content {
+	div.section {
 		max-width: 1000px;
-		padding: 65px 30px 65px;
+		padding: 65px 0 65px;
 		margin: 0 auto;
 	}
 
@@ -165,20 +237,106 @@ section {
 	}
 
 	.oddrow {
-		/* background-color:  $oddcolor;*/
+		background-color:  $oddcolor;
 	}
 }
 
+/* ------------------------------- */ 
 .anchor {
 	position: relative; 
 	top: -$headersize;
 
-	:before {
+	&:before {
 		content: " ";
 	}
 }
 
-h1 {
-	font-family: 'Ubuntu', sans-serif;
-	font-size: 36px; font-weight: 900;
+#content-wrapper {
+	min-height: 260px;
+    padding: $headersize 0 30px;
 }
+
+/* ------------------------------- */ 
+.nav-opener {
+	display: none;
+	float: right;
+	width: 45px;
+	height: 45px;
+	top: 18px;
+	background: #f6f8f9;
+	position: relative;
+	border: none;
+	border-radius: 50%;
+	text-indent: -9999px;
+	overflow: hidden;
+	z-index: 100;
+
+	@media (max-width: $width-mobile) { 
+		display: block;
+	}
+	
+	&:before,
+	&:after,
+	span {
+		background: $bouncecolor;
+		border-radius: 4px;
+		position: absolute;
+		left: 12px;
+		right: 12px;
+		height: 3px;
+		margin-top: -2px;
+		-webkit-transition: all .2s linear;
+		transition: all .2s linear;
+		content: "";
+	}
+	
+	span {
+		top: 23px;
+	}
+	&:before {
+		top: 16px;
+	}
+	&:after {
+		top: 30px;
+	}
+	
+	&:hover {
+		background: $bouncecolor;
+
+		&:before,
+		&:after,
+		span {
+			background: #fff;
+		}
+	}
+}
+
+
+header.nav-active {
+	nav {
+		display: block;
+	}
+
+	.nav-opener {
+		&:after, 
+		&:before {
+			top: 23px;
+			left: 10px;
+			right: 10px;
+		}
+		
+		&:before {
+			-webkit-transform: rotate(45deg);
+			transform: rotate(45deg);
+		}
+		&:after {
+			-webkit-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+		}
+		
+		span {
+			display: none;
+		}
+	}
+}
+/* ------------------------------- */ 

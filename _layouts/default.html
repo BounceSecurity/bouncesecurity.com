@@ -11,42 +11,63 @@
     <title>{{ site.title }} | {{ page.title | default: site.description }} </title>
 
     <meta property="og:title" content="Bounce Security Consulting" />
+    <meta property="og:site_name" content="Bounce Security Consulting" />
     <meta name="description" content="Efficient, Value-Driven Security" />
     <meta property="og:description" content="Efficient, Value-Driven Security" />
-    <meta property="og:site_name" content="Bounce Security Consulting" />
     <script type="application/ld+json">
         {"name":"Bounce Security Consulting","description":"Efficient, Value-Driven Security","@type":"WebSite","url":"/","headline":"Bounce Security Consulting","@context":"http://schema.org"}
     </script>
+	<script>
+	function navToggle() { 		
+		if (header.classList.contains("nav-active")) {
+			header.classList.remove("nav-active");
+		} else {			
+			header.classList.add("nav-active");
+		} 
+	} 
+	
+	window.onload = function() { 
+		Array.prototype.filter.call(
+			document.getElementById('nav').getElementsByTagName('li'), 
+			function (el) {
+				el.onclick = function(){ el.firstElementChild.click() };
+			}
+		);
+	};
+	</script>	
   </head>
 
   <body>
 	<header id="header" class="header">
+
 		<div class="logo">
 			<a href="/">
-				<img src={{ "/assets/img/logo.svg" | relative_url }} alt="Bounce Security" onerror="this.onerror=null; this.src='images/logo.png'" />
+				<img src={{ "/assets/img/logo.svg" | relative_url }} alt="Bounce Security" onerror="this.onerror=null; this.src='images/logo.png'" />				
 			</a>
 		</div>
-		
+		<a href="#" class="nav-opener" onclick="navToggle();"><span>Menu</span></a>
+
 		<nav class="nav">
 			<ul>
 				{% for menu in site.data.menus %}
 				<li>
-					<a href="{{ menu.url | relative_url }}" {% if menu.active %} class="activelink"{% endif %}>{{menu.title}}</a>
+					<a href="{{ menu.url | relative_url }}" {% if menu.link %} class="link"{% endif %}>{{menu.title}}</a>
 				</li>
 				{% endfor %}
 			</ul>
 		</nav>
 	</header>
-
 	
 	<section id="content-wrapper">
 		{{ content }}
 	</section>
 
 	<footer id="footer" class="footer">
-		Efficient, Value Driven Security - 
+		How do <i>YOU</i> feel about Value Driven Security? - 
 		<a href="mailto:info@bouncesecurity.com">info@bouncesecurity.com</a>
 	</footer>
 
   </body>
 </html>
+
+
