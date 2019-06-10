@@ -232,6 +232,17 @@ section {
 		max-width: 1000px;
 		padding: 65px 0 65px;
 		margin: 0 auto;
+
+		ul {
+			padding-inline-start: 40px;
+			max-width: 400px;
+			margin-left: 300px;
+			text-align: left;
+		
+			li {
+				padding-left: 40px;
+			}
+		}
 	}
 
 	.evenrow {
