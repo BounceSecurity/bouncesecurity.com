@@ -23,10 +23,12 @@ html {
 	-webkit-text-size-adjust: 100%; 
 }
 
-body { 
+body {
 	color: $fontcolor;
 	background: white;
-	font: $fontsize / 1.625 Calibri, Candara, Verdana, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-family: Calibri, Candara, Verdana, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	font-size: $fontsize;
+	line-height: 1.625;
 	margin: 0;
 
 	@media (max-width: $width-mobile) {
