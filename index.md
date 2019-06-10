@@ -12,7 +12,7 @@
 	<a id="approach" class="anchor"></a>
 	<div class="section">
 
-At Bounce Security, we care about doing security the right way. For us, that means focusing on protecting what really matters, and not wasting your scarce resources on generic, so-called "best practices".   
+At Bounce Security, we care about doing security the right way. For us, that means focusing on protecting what really matters, and not wasting your limited resources on generic, so-called "best practices", draining your developers' cycles or squandering on expensive consultants.  
 
 That is why we've developed our "**Value Driven Security**" approach, to save you time and money, and to enable a more efficient security process. Having strong technical background and an intelligent risk analysis framework in place not only helps discover security risks, but also allows us to make pragmatic decisions and recommend *against* investing in mitigation of risks that do not affect your bottom line. 
 	</div>
