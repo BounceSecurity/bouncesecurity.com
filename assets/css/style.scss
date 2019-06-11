@@ -188,7 +188,10 @@ nav {
 				padding-right: 14px;
 				font-weight: 600;
 				color: #ff5f5f;
-
+				@media (max-width: $width-mobile) { 
+					color: #3c5063;
+				}
+				
 				&:after {
 					-webkit-transition: right .2s linear 0s;
 					transition: right .2s linear 0s;
@@ -199,16 +202,16 @@ nav {
 					z-index: 2;
 					margin-top: -12px;
 					content: "►";
+					
+					@media (max-width: $width-mobile) { 
+						right: 6px;
+					}
 				}
 
 				&:hover:after {
 					right: -12px !important;
-				}
-				
-				@media (max-width: $width-mobile) { 
-					color: #3c5063;
-
-					&:hover:after {
+					
+					@media (max-width: $width-mobile) { 
 						position: absolute;
 						right: 32px !important;
 						margin-top: -10px;
