@@ -4,7 +4,9 @@
 <section id="section-intro" class="evenrow">
 <a id="intro" class="anchor"></a>
 <div class="section">
-<h1>{{ page.description | default: site.description | default: "Efficient, Value-Driven Security" }}</h1>
+
+# {{ page.description | default: site.description | default: "Efficient, Value-Driven Security" }}
+
 </div>
 </section>
 
