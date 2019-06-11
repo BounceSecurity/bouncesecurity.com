@@ -195,7 +195,7 @@ nav {
 					
 					position: absolute;
 					top: 50%;
-					right: -6px;
+					right: 6px;
 					z-index: 2;
 					margin-top: -12px;
 					content: "►";
@@ -234,14 +234,7 @@ section {
 		margin: 0 auto;
 
 		ul {
-			padding-inline-start: 40px;
-			max-width: 400px;
-			margin-left: 300px;
-			text-align: left;
-		
-			li {
-				padding-left: 40px;
-			}
+			list-style-position: inside;
 		}
 	}
 
@@ -270,7 +263,7 @@ section {
 }
 
 img.profile {
-	
+
 }
 
 .social {
