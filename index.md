@@ -36,7 +36,7 @@ We offer the following services:
 
 <section id="section-about" class="oddrow">
 <a id="about" class="anchor"></a>
-{% include about.html %}
+{% include about.md %}
 </section>
 
 <section id="section-contact" class="evenrow">
