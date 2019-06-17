@@ -11,3 +11,5 @@ defaults:
 kramdown: 
   parse_block_html : true
   parse_span_html  : true
+
+include: ["_redirects"]
