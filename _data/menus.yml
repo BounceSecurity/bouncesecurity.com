@@ -9,3 +9,5 @@
 - title: Get in touch
   url  : '#contact'
   link : true
+- title: Events
+  url  : '/events'
