@@ -14,8 +14,11 @@
     </tr>
     <tr>
         {% if event.youtube && event.url %}
-            <td><a href="{{event.url}}">More</a></td>
+            <td></td>
+            <td><a href="{{event.url}}">Click here for more</a></td>
+            <td></td>
         {% endif %}
     </tr>
+    </tr> </tr>
     {% endfor %}
 </table>
