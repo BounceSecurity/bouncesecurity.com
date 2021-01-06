@@ -10,6 +10,8 @@
             {% else %}
                 </td>
                 <td><a href="{{ event.url }}">{{ event.title }}</a></td>
+                <td></td>
+                <tr></tr>
                 <td>
             {% endif %}        
         </td>
