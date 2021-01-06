@@ -6,8 +6,9 @@
   url  : '#services'
 - title: Who are we
   url  : '#about'
+- title: Events
+  url  : '/events'
 - title: Get in touch
   url  : '#contact'
   link : true
-- title: Events
-  url  : '/events'
+
