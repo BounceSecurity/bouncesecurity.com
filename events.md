@@ -1,3 +1,6 @@
+---
+---
+
 <table>
     {% for event in site.data.events %}
         <td>
