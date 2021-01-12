@@ -1,109 +1,123 @@
 - event: Open Security Summit
   year: 2020
   date: June 11th
-  title: Introduction to Threat Modeling by Avi Douglen
+  title: Introduction to Threat Modeling
   youtube: https://youtu.be/yjvSI755auM
   embed: https://www.youtube.com/embed/yjvSI755auM
   url: https://open-security-summit.org/sessions/2020/mini-summits/dec/threat-modeling/threat-modeling-manifesto/
+  by: Avi Douglen
  
 - event: SafetyDetectives
   year: 2020
   date: May 25th
   title: Interview With Avi Douglen – Bounce Security
   url: https://www.safetydetectives.com/blog/interview-avi-douglen-bounce-security/
+  by: Avi Douglen
    
 - event: Security Weekly
   year: 2020
   date: April 27th
-  title: Threat Modeling in AppSec by Avi Douglen
+  title: Threat Modeling in AppSec
   youtube: https://youtu.be/_rjCMsQYRro
   embed: https://www.youtube.com/embed/_rjCMsQYRro
   url: https://securityweekly.com/shows/threat-modeling-in-appsec-avi-douglen-asw-105/
+  by: Avi Douglen
    
 - event: Infosec In the City
   year: 2020
   date: March 30th
-  title: Designing Secure Systems, Value-Driven Threat Modeling by Avi Douglen
+  title: Designing Secure Systems, Value-Driven Threat Modeling
   youtube: https://youtu.be/_MXio3EqoDI
   embed: https://www.youtube.com/embed/_MXio3EqoDI
   url: https://www.infosec-city.com/sin19-con
+  by: Avi Douglen
    
 - event: OWASP
   year: 2019
   date: July 5th
-  title: Testing Security In, the Right Way by Adi Belinkov and Iris Levari
+  title: Testing Security In, the Right Way
   youtube: https://youtu.be/sorcL9GC_uo
   embed: https://www.youtube.com/embed/sorcL9GC_uo
   url: https://owasp.org/
+  by: Adi Belinkov and Iris Levari
    
 - event: DevOpsDays Tel Aviv
   year: 2019
   date: January 3rd
-  title: Value driven threat modelling, security by design by Avi Douglen
+  title: Value driven threat modelling, security by design
   youtube: https://youtu.be/Ym1-7DJlevA
   embed: https://www.youtube.com/embed/Ym1-7DJlevA
   url: https://devopsdays.org/events/2018-tel-aviv/program/avi-douglen
-   
+  by: Avi Douglen
+
 - event: OWASP Israel
   year: 2018
   date: November 29th
-  title: Value Driven Threat Modeling by Avi Douglen
+  title: Value Driven Threat Modeling
   youtube: https://youtu.be/gskTQkwsdzw
   embed: https://www.youtube.com/embed/gskTQkwsdzw
   url: https://owasp.org/www-chapter-israel/
+  by: Avi Douglen
    
 - event: OWASP
   year: 2018
   date: November 14th
-  title: Value Driven Threat Modeling by Avi Douglen
+  title: Value Driven Threat Modeling
   youtube: https://youtu.be/3Fl_7FrM_gI
   embed: https://www.youtube.com/embed/3Fl_7FrM_gI
   url: https://owasp.org/
+  by: Avi Douglen
    
 - event: PyCon Israel
   year: 2018
   date: July 10th
-  title: Value Driven Threat Modeling, Security by Design by Avi Douglen
+  title: Value Driven Threat Modeling, Security by Design
   youtube: https://youtu.be/Ml3HJqFJMOY
   embed: https://www.youtube.com/embed/Ml3HJqFJMOY
   url: https://pyvideo.org/pycon-israel-2018/value-driven-threat-modeling-security-by-design.html
+  by: Avi Douglen
    
 - event: OWASP Israel
   year: 2017
   date: December 6th
-  title: Conference Opening Address by Avi Douglen and Tiffany Long
+  title: Conference Opening Address
   youtube: https://youtu.be/Moqawdvrnig
   embed: https://www.youtube.com/embed/Moqawdvrnig
   url: https://owasp.org/www-chapter-israel/
+  by: Avi Douglen and Tiffany Long
    
 - event: OWASP Göteborg
   year: 2016
   date: November 24th
-  title: Passwords, Rehashed All Over Again by Avi Douglen
+  title: Passwords, Rehashed All Over Again
   youtube: https://youtu.be/h80rIJOjdgA
   embed: https://www.youtube.com/embed/h80rIJOjdgA
   url: https://owasp.org/www-chapter-gothenburg/
+  by: Avi Douglen
    
 - event: OWASP Israel
   year: 2016
   date: November 4th
-  title: Opening Words by Avi Douglen
+  title: Opening Words
   youtube: https://youtu.be/HN5KSl2cSaI
   embed: https://www.youtube.com/embed/HN5KSl2cSaI
   url: https://owasp.org/www-chapter-israel/
+  by: Avi Douglen
    
 - event: OWASP Israel
   year: 2015
   date: November 27th
-  title: Opening Words (Mostly Hebrew) by Avi Douglen 
+  title: Opening Words (Mostly Hebrew)
   youtube: https://youtu.be/ghDGr5dcu0o
   embed: https://www.youtube.com/embed/ghDGr5dcu0o
   url: https://owasp.org/www-chapter-israel/
+  by: Avi Douglen
    
 - event: OWASP Israel
   year: 2014
   date: October 13th
-  title: Passwords, Rehashed All Over Again by Avi Douglen
+  title: Passwords, Rehashed All Over Again
   youtube: https://youtu.be/HVyorPPvPE0
   embed: https://www.youtube.com/embed/HVyorPPvPE0
   url: https://owasp.org/www-chapter-israel/
+  by: Avi Douglen
