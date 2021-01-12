@@ -5,8 +5,6 @@
     {% for event in site.data.events %}
     <tr>
         <td>{{ event.event }}</td>
-    </tr>
-    <tr>
         <td>{{ event.date }} {{event.year}}</td>
     </tr>
     <tr>
