@@ -24,6 +24,6 @@
             <td></td>
         {% endif %}
     </tr>
-    <tr> </tr>
+    <tr> <td> </td> </tr>
     {% endfor %}
 </table>
