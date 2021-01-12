@@ -361,3 +361,14 @@ header.nav-active {
 	}
 }
 /* ------------------------------- */ 
+
+.middle {
+
+}
+.eventtable {
+	border: 1px solid $bouncecolor;
+	tr:nth-child(even) {background-color: $evencolor};
+	tr:nth-child(odd) {background-color: $oddcolor};
+}
+
+/* ------------------------------- */ 
