@@ -6,6 +6,7 @@
   embed: https://www.youtube.com/embed/yjvSI755auM
   url: https://open-security-summit.org/sessions/2020/mini-summits/dec/threat-modeling/threat-modeling-manifesto/
   by: Avi Douglen
+  info: Virtual Summit due to CoViD19.
  
 - event: SafetyDetectives
   year: 2020
@@ -13,6 +14,7 @@
   title: Interview With Avi Douglen – Bounce Security
   url: https://www.safetydetectives.com/blog/interview-avi-douglen-bounce-security/
   by: Avi Douglen
+  info:
    
 - event: Security Weekly
   year: 2020
@@ -22,6 +24,7 @@
   embed: https://www.youtube.com/embed/_rjCMsQYRro
   url: https://securityweekly.com/shows/threat-modeling-in-appsec-avi-douglen-asw-105/
   by: Avi Douglen
+  info:
    
 - event: Infosec In the City
   year: 2020
@@ -31,6 +34,7 @@
   embed: https://www.youtube.com/embed/_MXio3EqoDI
   url: https://www.infosec-city.com/sin19-con
   by: Avi Douglen
+  info:
    
 - event: OWASP
   year: 2019
@@ -40,6 +44,7 @@
   embed: https://www.youtube.com/embed/sorcL9GC_uo
   url: https://owasp.org/
   by: Adi Belinkov and Iris Levari
+  info:
    
 - event: DevOpsDays Tel Aviv
   year: 2019
@@ -49,6 +54,7 @@
   embed: https://www.youtube.com/embed/Ym1-7DJlevA
   url: https://devopsdays.org/events/2018-tel-aviv/program/avi-douglen
   by: Avi Douglen
+  info:
 
 - event: OWASP Israel
   year: 2018
@@ -58,6 +64,7 @@
   embed: https://www.youtube.com/embed/gskTQkwsdzw
   url: https://owasp.org/www-chapter-israel/
   by: Avi Douglen
+  info:
    
 - event: OWASP
   year: 2018
@@ -67,6 +74,7 @@
   embed: https://www.youtube.com/embed/3Fl_7FrM_gI
   url: https://owasp.org/
   by: Avi Douglen
+  info:
    
 - event: PyCon Israel
   year: 2018
@@ -76,6 +84,7 @@
   embed: https://www.youtube.com/embed/Ml3HJqFJMOY
   url: https://pyvideo.org/pycon-israel-2018/value-driven-threat-modeling-security-by-design.html
   by: Avi Douglen
+  info:
    
 - event: OWASP Israel
   year: 2017
@@ -85,6 +94,7 @@
   embed: https://www.youtube.com/embed/Moqawdvrnig
   url: https://owasp.org/www-chapter-israel/
   by: Avi Douglen and Tiffany Long
+  info:
    
 - event: OWASP Göteborg
   year: 2016
@@ -94,6 +104,7 @@
   embed: https://www.youtube.com/embed/h80rIJOjdgA
   url: https://owasp.org/www-chapter-gothenburg/
   by: Avi Douglen
+  info:
    
 - event: OWASP Israel
   year: 2016
@@ -103,6 +114,7 @@
   embed: https://www.youtube.com/embed/HN5KSl2cSaI
   url: https://owasp.org/www-chapter-israel/
   by: Avi Douglen
+  info:
    
 - event: OWASP Israel
   year: 2015
@@ -112,6 +124,7 @@
   embed: https://www.youtube.com/embed/ghDGr5dcu0o
   url: https://owasp.org/www-chapter-israel/
   by: Avi Douglen
+  info:
    
 - event: OWASP Israel
   year: 2014
@@ -121,3 +134,4 @@
   embed: https://www.youtube.com/embed/HVyorPPvPE0
   url: https://owasp.org/www-chapter-israel/
   by: Avi Douglen
+  info:
