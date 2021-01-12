@@ -9,7 +9,7 @@ Bounce Security consults on software security to development teams of all sizes,
 We bring this technical expertise to your table and merge it with a business perspective to ensure you get the maximum bang for your security buck. 
 
 
-![Avi D profile](/assets/img/Avid.jpg){: .profile }
+![Avi D profile](~/assets/img/Avid.jpg){: .profile }
 
 [![LinkedIn](/assets/img/icon-linkedin.png)](https://www.linkedin.com/in/avidouglen/){: .social }
 [![Twitter](/assets/img/icon-twitter.png)](https://twitter.com/sec_tigger){: .social }
