@@ -13,15 +13,17 @@
         <td>
             {% if event.youtube %}
                 <a href="{{ event.youtube }}">{{ event.title }}</a></td>
-                <td><iframe width="525" height="295.5" src="{{ event.embed }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <td><iframe width="175" height="98.5" src="{{ event.embed }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             {% else %}
                 <class="middle"><a href="{{ event.url }}">{{ event.title }}</a></class>
             {% endif %}        
         </td>
     </tr>
+    <tr> 
+        <td> {{ event.info }} </td> 
+    </tr>
     <tr>
             <td>&nbsp; <hr /> </td>
     </tr>
-    <tr> <td> {{ events.info }} </td> </tr>
     {% endfor %}
 </table>

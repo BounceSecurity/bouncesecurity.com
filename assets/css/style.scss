@@ -363,7 +363,7 @@ header.nav-active {
 /* ------------------------------- */ 
 
 .middle {
-
+	column-span: 2;
 }
 .eventtable {
 	border: 1px solid $bouncecolor;
