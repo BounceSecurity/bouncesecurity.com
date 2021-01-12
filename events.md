@@ -3,11 +3,12 @@
 
 <table border = "1px" class="evenrow">
     {% for event in site.data.events %}
-        {% if class == evenrow %}
-            <class="oddrow">
+        <class
+        {% if class = evenrow %}
+           class="oddrow"
         {% else %}
-            <class="evenrow">
-        {% endif %}
+            class="evenrow"
+        {% endif %}>
     <tr>
         <td>{{ event.event }}</td>
         <td>{{ event.date }} {{event.year}}</td>
