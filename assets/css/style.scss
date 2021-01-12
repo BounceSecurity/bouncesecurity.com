@@ -363,12 +363,16 @@ header.nav-active {
 /* ------------------------------- */ 
 
 .middle {
-	column-span: 2;
+	column-span: all;
 }
 .eventtable {
-	border: 1px solid $bouncecolor;
-	tr:nth-child(even) {background-color: $evencolor};
-	tr:nth-child(odd) {background-color: $oddcolor};
+	width: 100%;
+	border: 3px solid $bouncecolor;
+	tr:nth-child(4n) {background-color: $evencolor};
+	tr:nth-child(4n+4) {background-color: $oddcolor};
+}
+.td {
+	border: 1.5px solid $bouncecolor;
 }
 
 /* ------------------------------- */ 
