@@ -1,17 +1,22 @@
 ---
 ---
 
-<table>
+<table border = "1px">
     {% for event in site.data.events %}
+    <tr>
+        <td>{{ event.event }}</td>
+    </tr>
+    <tr>
+        <td>{{ event.date }} {{event.year}}</td>
+    </tr>
+    <tr>
         <td>
             {% if event.youtube %}
                 <a href="{{ event.youtube }}">{{ event.title }}</a></td>
-                <td><iframe width="700" height="394" src="{{ event.embed }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <td><iframe width="525" height="295.5" src="{{ event.embed }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             {% else %}
                 </td>
-                <td><a href="{{ event.url }}">{{ event.title }}</a><td></td></td>
-                <tr></tr>
-                <td>
+                <td><center><a href="{{ event.url }}">{{ event.title }}</a></center>
             {% endif %}        
         </td>
     </tr>
