@@ -20,10 +20,10 @@
         </td>
     </tr>
     <tr> 
-        <td> {{ event.info }} </td> 
+        <td><class="middle"> {{ event.info }} </class></td> 
     </tr>
     <tr>
-            <td>&nbsp; <hr /> </td>
+            <td><class="middle"> &nbsp; <hr /> </class></td>
     </tr>
     {% endfor %}
 </table>

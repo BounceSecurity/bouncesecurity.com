@@ -368,8 +368,9 @@ header.nav-active {
 .eventtable {
 	width: 100%;
 	border: 3px solid $bouncecolor;
-	tr:nth-child(4n) {background-color: $evencolor};
-	tr:nth-child(4n+4) {background-color: $oddcolor};
+	background-color: $oddcolor;
+	tr:nth-child(-n+4) {background-color: $evencolor};
+
 }
 .td {
 	border: 1.5px solid $bouncecolor;
