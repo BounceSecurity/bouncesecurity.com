@@ -1,6 +1,7 @@
 ---
 ---
 
+<div>test</div>
 {% for event in site.data.events %}
     <div class="eventsoddeven">
         <div class="middle">
