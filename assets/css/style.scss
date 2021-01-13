@@ -364,13 +364,15 @@ header.nav-active {
 
 .eventsoddeven {
 	width: 100%;
-//	border: 3px solid $bouncecolor;
 	tr:nth-child(even) {background-color: $evencolor};
 	tr:nth-child(odd) {background-color: $oddcolor};
-	padding: 50px;
+	padding: 30px;
 }
 .middle{
-	padding: 20px;
+	padding: 5px;
+}
+.tab{
+	padding-right: 10px;
 }
 
 /* ------------------------------- */ 
