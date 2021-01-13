@@ -16,15 +16,15 @@
                 <td><iframe width="262.5" height="147.75" src="{{ event.embed }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </td>
             {% else %}
-            <td class="middle"><a href="{{ event.url }}">{{ event.title }}</a>
+            <td colspan="2"><a href="{{ event.url }}">{{ event.title }}</a>
         </td>
             {% endif %}        
     </tr>
     <tr> 
-        <td class="middle">{{ event.info }}</td>
+        <td colspan="2">{{ event.info }}</td>
     </tr>
     <tr>
-            <td class="middle"> &nbsp; <hr /></td>
+            <td colspan="2"> &nbsp; <hr /></td>
     </tr>
     {% endfor %}
 </table>
