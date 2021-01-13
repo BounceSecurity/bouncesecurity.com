@@ -366,9 +366,9 @@ header.nav-active {
 	width: 100%;
 	border: 3px solid $bouncecolor;
 	background-color: $oddcolor;
-	tr:nth-child(n+4) {background-color: $evencolor};
-	tr:nth-child(n+5) {background-color: $evencolor};
-	tr:nth-child(n+6) {background-color: $evencolor};
+	tr:nth-child(6n) {background-color: $evencolor};
+	tr:nth-child(6n-1) {background-color: $evencolor};
+	tr:nth-child(6n-2) {background-color: $evencolor};
 }
 td {
 	border: 1.5px solid $bouncecolor;
