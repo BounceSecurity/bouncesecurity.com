@@ -2,7 +2,7 @@
 ---
 
 {% for event in site.data.events %}
-    <section class="eventsoddeven">
+    <span class="eventsoddeven">
         <span class="middle">
             <a href="{{event.url}}">{{ event.event }}</a> 
             {{ event.date }} {{event.year}}
@@ -15,5 +15,5 @@
                 <a href="{{ event.url }}">{{ event.title }}</a>
             {% endif %}        
         </span>
-    </section>
+    </span>
 {% endfor %}
