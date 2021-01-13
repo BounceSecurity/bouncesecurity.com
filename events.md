@@ -20,9 +20,6 @@
         </td>
             {% endif %}        
     </tr>
-    <tr> 
-        <td colspan="2">{{ event.info }}</td>
-    </tr>
     <tr>
             <td colspan="2"> &nbsp; <hr /></td>
     </tr>
