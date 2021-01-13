@@ -10,20 +10,21 @@
         <td>{{ event.date }} {{event.year}}</td>
     </tr>
     <tr>
-        <td>
             {% if event.youtube %}
+        <td>
                 <a href="{{ event.youtube }}">{{ event.title }}</a></td>
                 <td><iframe width="262.5" height="147.75" src="{{ event.embed }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </td>
             {% else %}
-                <class="middle"><a href="{{ event.url }}">{{ event.title }}</a></class>
-            {% endif %}        
+            <td class="middle"><a href="{{ event.url }}">{{ event.title }}</a>
         </td>
+            {% endif %}        
     </tr>
     <tr> 
-        <td><class="middle"> {{ event.info }} </class></td> 
+        <td class="middle">{{ event.info }}</td>
     </tr>
     <tr>
-            <td><class="middle"> &nbsp; <hr /> </class></td>
+            <td class="middle"> &nbsp; <hr /></td>
     </tr>
     {% endfor %}
 </table>
