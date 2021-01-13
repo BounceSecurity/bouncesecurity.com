@@ -362,16 +362,15 @@ header.nav-active {
 }
 /* ------------------------------- */ 
 
-.eventtable {
+.eventsoddeven {
 	width: 100%;
-	border: 3px solid $bouncecolor;
-	background-color: $oddcolor;
-	tr:nth-child(6n) {background-color: $evencolor};
-	tr:nth-child(6n-1) {background-color: $evencolor};
-	tr:nth-child(6n-2) {background-color: $evencolor};
+//	border: 3px solid $bouncecolor;
+	tr:nth-child(even) {background-color: $evencolor};
+	tr:nth-child(odd) {background-color: $oddcolor};
+	padding: 50px;
 }
-td {
-	border: 1.5px solid $bouncecolor;
+.middle{
+	padding: 20px;
 }
 
 /* ------------------------------- */ 

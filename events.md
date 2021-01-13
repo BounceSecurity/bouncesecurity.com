@@ -1,27 +1,23 @@
 ---
 ---
 <style>
-
-    </style>
-<table class="eventtable">
-    {% for event in site.data.events %}
-    <tr>
-        <td><a href="{{event.url}}">{{ event.event }}</a></td>
-        <td>{{ event.date }} {{event.year}}</td>
-    </tr>
-    <tr>
+</style>
+{% for event in site.data.events %}
+    <div class=eventsoddeven>
+        <div class=middle>
+            <a href="{{event.url}}">{{ event.event }}</a> 
+            {{ event.date }} {{event.year}}
+        </div>
+        <div class=middle>
             {% if event.youtube %}
-        <td>
-                <a href="{{ event.youtube }}">{{ event.title }}</a></td>
-                <td><iframe width="262.5" height="147.75" src="{{ event.embed }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </td>
+                <a href="{{ event.youtube }}">{{ event.title }}</a> 
+                <iframe width="262.5" height="147.75" src="{{ event.embed }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             {% else %}
-            <td colspan="2"><a href="{{ event.url }}">{{ event.title }}</a>
-        </td>
+                <a href="{{ event.url }}">{{ event.title }}</a>
             {% endif %}        
-    </tr>
-    <tr>
-            <td colspan="2"> &nbsp; <hr /></td>
-    </tr>
+        </div>
+        <div>
+                 &nbsp;
+        </div>
     {% endfor %}
 </table>
