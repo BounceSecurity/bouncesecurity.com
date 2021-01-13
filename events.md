@@ -2,12 +2,12 @@
 ---
 
 {% for event in site.data.events %}
-    <p class="eventsoddeven">
-        <span class="middle">
+    <section>
+        <span>
             <a href="{{event.url}}">{{ event.event }}</a> 
             {{ event.date }} {{event.year}}
         </span>
-        <span class="middle">
+        <span>
             {% if event.youtube %}
                 <a href="{{ event.youtube }}">{{ event.title }}</a> 
                 <iframe width="262.5" height="147.75" src="{{ event.embed }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -15,5 +15,5 @@
                 <a href="{{ event.url }}">{{ event.title }}</a>
             {% endif %}        
         </span>
-    </p>
+    </section>
 {% endfor %}
