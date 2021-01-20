@@ -365,9 +365,14 @@ header.nav-active {
 div.eventsoddeven {
 	width: 100%;
 	max-width: 1200px;
-	&:nth-child(even) {background-color: $evencolor};
-	&:nth-child(odd) {background-color: $oddcolor};
-	padding: 50px;
+	&:nth-child(even) {background-color: $evencolor;
+		padding-left: 25px;
+		padding-right: 75px};
+	&:nth-child(odd) {background-color: $oddcolor;
+		padding-left: 75px;
+		padding-right: 25px};
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .tab{
