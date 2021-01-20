@@ -2,8 +2,10 @@
 ---
 
 {% for event in site.data.events %}
-
-<div class="eventsoddeven">
+    {% if class.eventseven%}
+<div class="eventseven">
+    {% else %}
+<div class="eventsodd">
 <a href="{{event.url}}">{{ event.event }}</a> 
     {{ event.date }} {{event.year}}  
       
