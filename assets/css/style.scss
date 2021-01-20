@@ -362,19 +362,10 @@ header.nav-active {
 }
 /* ------------------------------- */ 
 
-.eventseven {
+.eventsoddeven {
 	width: 100%;
 	max-width: 1200px;
 	div:nth-child(even) {background-color: $evencolor};
-	//div:nth-child(odd) {background-color: $oddcolor};
-	padding-top: 40px;
-	padding-left: 50px;
-	padding-right: 50px;
-}
-.eventsodd {
-	width: 100%;
-	max-width: 1200px;
-	//div:nth-child(even) {background-color: $evencolor};
 	div:nth-child(odd) {background-color: $oddcolor};
 	padding-top: 40px;
 	padding-left: 50px;
