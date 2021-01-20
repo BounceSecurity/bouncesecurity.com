@@ -368,9 +368,11 @@ div.eventsoddeven {
 	&:nth-child(even) {background-color: $evencolor};
 	&:nth-child(odd) {background-color: $oddcolor};
 	padding: 50px;
+}
 
 .tab{
 	padding-right: 10px;
 }
 
-/* ------------------------------- */ 
+/* ------------------------------- */
+
