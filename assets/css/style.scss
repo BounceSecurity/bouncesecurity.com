@@ -364,8 +364,8 @@ header.nav-active {
 
 .eventsoddeven {
 	width: 100%;
-	tr:nth-child(even) {background-color: $evencolor};
-	tr:nth-child(odd) {background-color: $oddcolor};
+	div:nth-child(even) {background-color: $evencolor};
+	div:nth-child(odd) {background-color: $oddcolor};
 	padding-top: 40px;
 	padding-left: 50px;
 	padding-right: 50px;
