@@ -362,11 +362,11 @@ header.nav-active {
 }
 /* ------------------------------- */ 
 
-.eventsoddeven {
+div.eventsoddeven {
 	width: 100%;
 	max-width: 1200px;
-	div:nth-child(even) {background-color: $evencolor};
-	div:nth-child(odd) {background-color: $oddcolor};
+	&:nth-child(even) {background-color: $evencolor};
+	&:nth-child(odd) {background-color: $oddcolor};
 	padding-top: 40px;
 	padding-left: 50px;
 	padding-right: 50px;
