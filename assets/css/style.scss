@@ -366,11 +366,11 @@ div.eventsoddeven {
 	width: 100%;
 	max-width: 1200px;
 	&:nth-child(even) {background-color: $evencolor;
-		padding-left: 25px;
-		padding-right: 75px};
+		padding-left: 1/4;
+		padding-right: 2/4};
 	&:nth-child(odd) {background-color: $oddcolor;
-		padding-left: 75px;
-		padding-right: 25px};
+		//padding-left: 620px;
+		//padding-right: 1076px};
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
