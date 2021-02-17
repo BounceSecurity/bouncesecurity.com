@@ -373,12 +373,12 @@ div.eventsoddeven {
 	&:nth-child(even) {
 		background-color: $evencolor;
 		//justify-content: flex-start;
-		align-items: flex-start;
+		align-items: left;
 	}
 	&:nth-child(odd) {
 		background-color: $oddcolor;
 		// justify-content: center;
-		align-items: flex-end;
+		align-items: right;
 	}
 	padding-top: 50px;
 	padding-bottom: 50px;
