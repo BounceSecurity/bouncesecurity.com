@@ -362,6 +362,10 @@ header.nav-active {
 }
 /* ------------------------------- */ 
 
+div.container {
+	display: flex;
+}
+
 div.eventsoddeven {
 	width: 100%;
 	max-width: 1200px;
@@ -374,7 +378,7 @@ div.eventsoddeven {
 	padding-bottom: 50px;
 }
 
-.tab{
+.tab {
 	padding-right: 10px;
 }
 
