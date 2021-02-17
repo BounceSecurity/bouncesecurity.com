@@ -369,16 +369,22 @@ div.eventsoddeven {
 	box-sizing: border-box;
 	&:nth-child(even) {
 		background-color: $evencolor;
-		text-align: start;
-		align-content: start;
+		//text-align: start;
+		//align-content: start;
 	}
 	&:nth-child(odd) {
 		background-color: $oddcolor;
-		text-align: end;
-		align-content: end;
+		//text-align: end;
+		//align-content: end;
 	}
 	padding-top: 50px;
 	padding-bottom: 50px;
+}
+
+div.eventsoddeven.div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .tab {
