@@ -365,16 +365,17 @@ header.nav-active {
 div.eventsoddeven {
 	display: flex;
 	flex-direction: column;
-	text-align: none;
 	width: 100%;
 	box-sizing: border-box;
 	&:nth-child(even) {
 		background-color: $evencolor;
-		align-content: flex-start;
+		text-align: start;
+		align-content: start;
 	}
 	&:nth-child(odd) {
 		background-color: $oddcolor;
-		align-content: flex-end;
+		text-align: end;
+		align-content: end;
 	}
 	padding-top: 50px;
 	padding-bottom: 50px;
