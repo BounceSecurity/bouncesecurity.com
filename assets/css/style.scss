@@ -365,10 +365,11 @@ header.nav-active {
 div.eventsoddeven {
 	width: 100%;
 	max-width: 1200px;
+	box-sizing: border-box;
 	&:nth-child(even) {background-color: $evencolor;
-		padding-right: 620px};
+		padding-right: 0px};
 	&:nth-child(odd) {background-color: $oddcolor;
-		padding-left: 620px};
+		padding-left: 0px};
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
