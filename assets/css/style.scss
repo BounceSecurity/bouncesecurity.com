@@ -383,8 +383,13 @@ div.eventsoddeven {
 
 div.eventsoddeven.div {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	flex-direction: row;
+}
+.itemvid {
+	order: 0;
+}
+.itemtxt {
+	order: 1;
 }
 
 .tab {
