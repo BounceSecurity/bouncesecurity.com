@@ -362,21 +362,19 @@ header.nav-active {
 }
 /* ------------------------------- */ 
 
-div.container {
+div.eventsoddeven {
 	display: flex;
 	flex-direction: column;
-}
-
-div.eventsoddeven {
+	text-align: none;
 	width: 100%;
 	box-sizing: border-box;
 	&:nth-child(even) {
 		background-color: $evencolor;
-		align-items: flex-start;
+		justify-content: flex-start;
 	}
 	&:nth-child(odd) {
 		background-color: $oddcolor;
-		align-items: flex-end;
+		justify-content: flex-end;
 	}
 	padding-top: 50px;
 	padding-bottom: 50px;

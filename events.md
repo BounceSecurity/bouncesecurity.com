@@ -1,7 +1,6 @@
 ---
 ---
 
-<div class="container">
 {% for event in site.data.events %}
 
 <div class="eventsoddeven">
@@ -16,4 +15,3 @@
 </div>
 
 {% endfor %}
-</div>
