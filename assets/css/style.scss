@@ -367,9 +367,9 @@ div.eventsoddeven {
 	max-width: 1200px;
 	box-sizing: border-box;
 	&:nth-child(even) {background-color: $evencolor;
-		padding-right: 0px};
+		justify-content: flex-start};
 	&:nth-child(odd) {background-color: $oddcolor;
-		padding-left: 0px};
+		justify-content: flex-end};
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
