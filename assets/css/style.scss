@@ -372,11 +372,11 @@ div.eventsoddeven {
 	box-sizing: border-box;
 	&:nth-child(even) {
 		background-color: $evencolor;
-		align-content: start;
+		align-items: flex-start;
 	}
 	&:nth-child(odd) {
 		background-color: $oddcolor;
-		align-content: end;
+		align-items: flex-end;
 	}
 	padding-top: 50px;
 	padding-bottom: 50px;
