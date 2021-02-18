@@ -371,19 +371,29 @@ div.eventsoddeven {
 	padding-bottom: 50px;
 	&:nth-child(even) {
 		background-color: $evencolor;
-		.div, .iframe {
-			text-align: left;
-			align-items: left;
-		}
+		//.div, .iframe {
+		//	text-align: left;
+		//	align-items: left;
+		//}
 	}
 	&:nth-child(odd) {
 		background-color: $oddcolor;
-		.div, .iframe {
-			text-align: center;
-			align-items: center;
-		}
+		//.div, .iframe {
+		//	text-align: center;
+		//	align-items: center;
+		//}
 	}
-
+}
+.event-wrapper{
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+	&:nth-child(even) {
+		justify-content: flex-start;
+	}
+	&:nth-child(odd) {
+		justify-content: flex-end;
+	}
 }
 .tab {
 	padding-right: 10px;
