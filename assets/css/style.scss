@@ -367,6 +367,8 @@ div.eventsoddeven {
 	flex-direction: column;
 	width: 100%;
 	box-sizing: border-box;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	&:nth-child(even) {
 		background-color: $evencolor;
 		//text-align: start;
@@ -377,21 +379,18 @@ div.eventsoddeven {
 		//text-align: end;
 		//align-content: end;
 	}
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
 
-div.eventsoddeven.div {
-	display: flex;
-	flex-direction: row;
-}
-.itemvid {
-	order: 0;
-}
-.itemtxt {
-	order: 1;
-}
+	div {
+		flex-direction: row;
 
+		&.itemvid {
+			order: 0;
+		}
+		&.itemtxt {
+			order: 1;
+		}
+	}
+}
 .tab {
 	padding-right: 10px;
 }
