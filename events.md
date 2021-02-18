@@ -17,9 +17,9 @@
 </div>
 {% if event.youtube %}
 <div class="event-youtube"><a href="{{ event.youtube }}">{{ event.title }}</a>
+</div>
 {% else %}
 <div class="event-title">{{ event.title }}
-</div>
 </div>
 {% endif %}
 </div>
