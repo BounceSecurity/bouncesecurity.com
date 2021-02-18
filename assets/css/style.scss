@@ -372,15 +372,15 @@ div.eventsoddeven {
 	&:nth-child(even) {
 		background-color: $evencolor;
 		.div, .iframe {
-			text-align: start;
-			align-items: start;
+			text-align: left;
+			align-items: left;
 		}
 	}
 	&:nth-child(odd) {
 		background-color: $oddcolor;
 		.div, .iframe {
-			text-align: end;
-			align-items: end;
+			text-align: center;
+			align-items: center;
 		}
 	}
 
