@@ -375,6 +375,12 @@ div.eventsoddeven {
 		//	text-align: left;
 		//	align-items: left;
 		//}
+		.event-wrapper{
+			display: flex;
+			flex-direction: row;
+			width: 50%;
+			justify-content: flex-start;
+		}
 	}
 	&:nth-child(odd) {
 		background-color: $oddcolor;
@@ -382,19 +388,26 @@ div.eventsoddeven {
 		//	text-align: center;
 		//	align-items: center;
 		//}
+		.event-wrapper{
+			display: flex;
+			flex-direction: row;
+			width: 50%;
+			justify-content: flex-end;
+		}
 	}
 }
-.event-wrapper{
-	display: flex;
-	flex-direction: row;
-	width: 50%;
-	&:nth-child(even) {
-		justify-content: flex-start;
-	}
-	&:nth-child(odd) {
-		justify-content: flex-end;
-	}
-}
+//.event-wrapper{
+//	display: flex;
+//	flex-direction: row;
+//	width: 50%;
+//	&:nth-child(even) {
+//		justify-content: flex-start;
+//	}
+//	&:nth-child(odd) {
+//		justify-content: flex-end;
+//	}
+//}
+
 .tab {
 	padding-right: 10px;
 }
