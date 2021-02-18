@@ -17,7 +17,8 @@
 </div>
 <iframe class="itemvid" width="262.5" height="147.75" src="{{ event.embed }}" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     {% else %}
-<div class="itemtxt"><a href="{{ event.url }}">{{ event.title }}</a></div>
+<div class="itemtxt"><a href="{{ event.url }}">{{ event.title }}</a>
+</div>
     {% endif %}
 </div>
 
