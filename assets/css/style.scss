@@ -381,6 +381,7 @@ div.eventsoddeven {
 			width: 50%;
 		}
 		justify-content: flex-start;
+		align-items: center;
 	}
 	&:nth-child(odd) {
 		background-color: $evencolor;
@@ -394,6 +395,7 @@ div.eventsoddeven {
 			width: 50%;
 		}
 		justify-content: flex-end;
+		align-items: center;
 	}
 }
 //.event-wrapper{
