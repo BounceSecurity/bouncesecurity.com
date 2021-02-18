@@ -24,5 +24,6 @@
 {% endif %}
 </div>
 </div>
+</div>
 
 {% endfor %}
