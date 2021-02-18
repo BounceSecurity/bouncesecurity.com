@@ -384,24 +384,6 @@ div.eventsoddeven {
 		}
 	}
 
-	div, iframe {
-		flex-direction: row;
-		align-items: flex-start;
-	}
-
-	.itemvid {
-		order: 0;
-	}
-	.event-name {
-		order: 1;
-	}
-	.event-youtube {
-		order: 2;
-	}
-	.event-title {
-		order: 3;
-	}
-
 }
 .tab {
 	padding-right: 10px;
