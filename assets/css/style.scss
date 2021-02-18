@@ -370,7 +370,7 @@ div.eventsoddeven {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	&:nth-child(even) {
-		background-color: $evencolor;
+		background-color: $oddcolor;
 		//.div, .iframe {
 		//	text-align: left;
 		//	align-items: left;
@@ -383,7 +383,7 @@ div.eventsoddeven {
 		}
 	}
 	&:nth-child(odd) {
-		background-color: $oddcolor;
+		background-color: $evencolor;
 		//.div, .iframe {
 		//	text-align: center;
 		//	align-items: center;
