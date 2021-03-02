@@ -1,4 +1,4 @@
-<b>  Threat Modeling Workshop: </b>
+## Threat Modeling Workshop
 
 Threat modeling, a structured methodology for security-based analysis of a complex system, can help you identify and prioritize potential threats and attack vectors, and understand the appropriate mitigations. 
 
