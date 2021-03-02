@@ -29,9 +29,9 @@ Having strong technical background and an intelligent risk analysis framework in
 
 We offer the following services:   
 
-- Security Roadmapping
-- Threat Modeling Workshop
-- Software Security Consulting
+<a href="{{ _data.SecurityRoadmapping }}">{{ Security Roadmapping }}</a>
+<a href="{{ _data.ThreatModelingWorkshop }}">{{ Threat Modeling Workshop }}</a>
+<a href="{{ _data.SoftwareSecurityConsulting }}">{{ Software Security Consulting }}</a>
 
 Security Roadmapping:
 We offer our Security Roadmapping service as a way to help you understand where you’re going, how long it will take, how much fuel (budget) you can expect to use, and what risks face us along the way.
