@@ -5,8 +5,8 @@
 {% for event in site.data.events %}
 -->
 
-{ assign sorted = site.data.events | sort: 'year' | reverse %}
-{ for event in sorted %}
+{% assign sorted = site.data.events | sort: 'year' | reverse %}
+{% for event in sorted %}
 
 <div class="eventsoddeven">
 <div class="event-wrapper">
