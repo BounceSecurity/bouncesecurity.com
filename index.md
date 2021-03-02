@@ -29,9 +29,9 @@ Having strong technical background and an intelligent risk analysis framework in
 
 We offer the following services:   
 
-<a href="{{ _data.SecurityRoadmapping }}">{{ "Security Roadmapping" }}</a>
-<a href="{{ _data.ThreatModelingWorkshop }}">{{ "Threat Modeling Workshop" }}</a>
-<a href="{{ _data.SoftwareSecurityConsulting }}">{{ "Software Security Consulting" }}</a>
+<a href="services#roadmapping">Security Roadmapping</a>
+<a href="services#tmworkshop">Threat Modeling Workshop</a>
+<a href="services#consulting">Software Security Consulting</a>
 
 </div>
 </section>

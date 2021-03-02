@@ -1,4 +1,4 @@
-<b>  Security Roadmapping: </b>
+## Security Roadmapping
 
 We offer our Security Roadmapping service as a way to help you understand where you’re going, how long it will take, how much fuel (budget) you can expect to use, and what risks face us along the way.
 
