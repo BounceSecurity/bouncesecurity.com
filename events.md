@@ -5,7 +5,7 @@
 {% for event in site.data.events %}
 -->
 
-{ assign sorted = site.data.events | sort: 'year' && 'date' | reverse %}
+{ assign sorted = site.data.events | sort: 'year' | reverse %}
 { for event in sorted %}
 
 <div class="eventsoddeven">
