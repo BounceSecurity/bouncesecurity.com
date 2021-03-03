@@ -3,18 +3,15 @@
 
 <div class="servicepadding">
 
-<a id="roadmapping"></a>
-<div class="oddrow">
-{% include SecurityRoadmapping.md %}
+<div id="roadmapping" class="oddrow">
+    {% include SecurityRoadmapping.md %}
 </div>
 
-<div class="evenrow">
-<a id="tmworkshop" class="anchor"></a>
+<div id="tmworkshop" class="evenrow">
     {% include ThreatModelingWorkshop.md %}
 </div>
 
-<div class="oddrow">
-<a id="consulting" class="anchor"></a>
+<div id="consulting" class="oddrow">
     {% include SoftwareSecurityConsulting.md %}
 </div>
 </div>
