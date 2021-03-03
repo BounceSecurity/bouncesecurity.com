@@ -371,10 +371,6 @@ div.eventsoddeven {
 	padding-bottom: 50px;
 	&:nth-child(even) {
 		background-color: $oddcolor;
-		//.div, .iframe {
-		//	text-align: left;
-		//	align-items: left;
-		//}
 		.event-wrapper{
 			display: flex;
 			flex-direction: row;
@@ -417,3 +413,6 @@ div.eventsoddeven {
 
 /* ------------------------------- */
 
+.servicepadding{
+	padding-top: 50;
+}
