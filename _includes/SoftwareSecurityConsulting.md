@@ -1,3 +1,6 @@
+---
+---
+
 ## Software Security Consulting
 
 Perhaps you are not yet ready for a full-fledged security program, for any of a number of valid reasons. Or maybe your security program is already mature, but you still need advice on a specific issue from an expert in security architecture.
