@@ -28,7 +28,7 @@ Maya is the COO of Bounce Security.
 
 Adi is an experienced security manager, used to leading teams to protect some of the most sensitive systems around. While her background was originally as a software developer and manager, she was most recently Vice President of Cybersecurity at JPMorgan Chase & Co., one of the largest banks in the world. Adi is now serving as CTO of Bounce Security, enthusiastically pushing our quality and focus on user needs, as well as engaging in additional advanced technologies to better serve our consulting clients. 
 Ms. Belinkov has well over a decade of experience in management roles, with security, operations, and development teams. She works closely with developers, QA engineers, Devops, and Product managers to deeply embed security into their daily workflows, often delivering internal training sessions. Adi has a pragmatic understanding of organizational constraints and requirements, and leverages these to ensure we deliver the optimal results to stakeholders. 
-Adi has served in the famous 8200 unit in the IDF, has a degree in Software Engineering, and is working on her executive MBA. She also volunteers for SheCodes, and previously ran one of the chapters. 
+Adi has served in the famous 8200 unit in the IDF, has a degree in Software Engineering, and is working on her Executive MBA. She also volunteers for SheCodes, and previously ran one of the chapters. 
   
 
 ![Emette D profile](/assets/img/EmetteD.jpg){: .profile }
