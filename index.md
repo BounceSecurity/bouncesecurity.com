@@ -29,9 +29,9 @@ Having strong technical background and an intelligent risk analysis framework in
 
 We offer the following services:   
 
-<a href="services#roadmapping">Security Roadmapping</a>
-<a href="services#tmworkshop">Threat Modeling Workshop</a>
-<a href="services#consulting">Software Security Consulting</a>
+<p><b><a href="services#roadmapping">Security Roadmapping</a></b></p>
+<p><b><a href="services#tmworkshop">Threat Modeling Workshop</a></b></p>
+<p><b><a href="services#consulting">Software Security Consulting</a></b></p>
 
 </div>
 </section>
